@@ -13,7 +13,7 @@ eg：int（4）；
 ## **4. 定点数（Decimal）**
 以字符串形式保存、精度不会丢失；
 ## **5. 日期与时间**
-![avatar](./1.png)
+![avatar](https://github.com/Keke0805/se_homework/blob/main/hw1/pic/1.png)
 - TIMESTAMP类型，这个类型的字段会在数据记录的其他字段被修改时自动刷新，其实就是记录数据表最后一次的操作时间；  
 - 对查询结果进行日期格式化：  
 eg：```SELECT DATE_FORMAT(date,'yyyy mm dd hh:mm:ss') FROM `user`;```
