@@ -25,4 +25,4 @@ jobs:
         with:
           java-version: 11
       - name: Test
-        run: cd ${{ github.workspace }}/hw7/hotpot/src/test/java && cat TestAction.java
+        run: cd ${{ github.workspace }}/hw7/hotpot/src/test/java && cat HotPotTest.java
